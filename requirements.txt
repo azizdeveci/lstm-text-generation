@@ -1,0 +1,9 @@
+tensorflow
+keras
+numpy
+matplotlib
+pillow
+requests
+h5py
+rich
+typing_extensions
