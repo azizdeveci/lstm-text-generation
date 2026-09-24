@@ -35,9 +35,10 @@ Sadece bir yapay zeka modeli olmakla kalmaz; FastAPI ile geliştirilmiş güçl�
 │   ├── templates/         # Jinja2 HTML şablonları (index.html).
 │   └── static/            # CSS, JS ve resim dosyaları.
 └── images/                # Projeye ait ekran görüntüleri.
+``` 
 
+---
 
+## 🖼️ Screenshot
 
-## 📸 Ekran Görüntüsü
-
-![LSTM Türkçe Metin Üretici Arayüzü](images/images.png)
+![LSTM Text Generator Interface](images/images.png)
