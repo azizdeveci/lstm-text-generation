@@ -1,4 +1,4 @@
-tensorflow
+tensorflow==2.21.0
 keras
 numpy
 matplotlib
@@ -7,3 +7,6 @@ requests
 h5py
 rich
 typing_extensions
+fastapi
+uvicorn
+jinja2
