@@ -1,0 +1,99 @@
+/* Genel ayarlar */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ana container */
+.container {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Başlık */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Form */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Label ve input */
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #34495e;
+    align-self: flex-start;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Buton */
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Spinner */
+.spinner {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Sonuç kutusu */
+#result {
+    margin-top: 30px;
+    padding: 15px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 12px;
+    font-size: 16px;
+    color: #2c3e50;
+    min-height: 40px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
